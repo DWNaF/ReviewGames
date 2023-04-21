@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Accueil</title>
+</head>
+<body class="noselect index_contact_body">
+  
+  <div class="nav-bar">
+      <img class="logo" src="../assets/img/logo-review-games.svg">
+      <ul class="btn-list">
+          <li class="nav-btn"><a href="../index.html">Accueil</a></li>
+          <!-- <li class="nav-btn"><a href="">Jeux</a></li> -->
+          <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Jeux</a>
+              <div class="dropdown-content">
+                <a href="../pages/games/battlefield.html">Battlefield 2042</a>
+                <a href="../pages/games/farcry6.html">Far Cry 6</a>
+                <a href="../pages/games/forza.html">Forza Horizon 5</a>
+                <a href="../pages/games/vanguard.html">COD : Vanguard</a>
+
+              </div>
+            </li>
+          <li class="nav-btn"><a href="pages/contact.html">Contact</a></li>
+      </ul>
+  </div>
+  
+  <div class="wrapper">
+      <form class="form">
+        <div class="page_contact title">Contact </div>
+        <div class="second_titre title">Veuillez remplir le formulaire pour nous contacter.</div>
+        <input type="text" class="name formEntry" placeholder="Nom" />
+        <input type="text" class="email formEntry" placeholder="Email"/>
+        <textarea class="message formEntry" placeholder="Message"></textarea>
+        <input type="checkbox" class="termsConditions" value="Term">
+        <label style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms of Use</span> & <span style="color: #0e3721">Privacy Policy</span>.</label><br>
+        <button class="submit formEntry" onclick="thanks()">Envoyer</button>
+      </form>
+  </div>
+
+</body>
+</html>
